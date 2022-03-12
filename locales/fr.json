@@ -20,5 +20,7 @@
     "Sign up now to get access to the library of members-only issues.": "Inscrivez-vous pour accéder au contenu réservé aux membres.",
     "Featured": "À la Une",
     "% issues": "% articles",
-    "% issue": "% article"
+    "% issue": "% article",
+    "By {namelink}": "Par {namelink}",
+    "in {primarytaglink}": "dans {primarytaglink}"
 }
