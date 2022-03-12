@@ -6,13 +6,12 @@
     <article class="gh-article {{post_class}}">
         <header class="gh-article-header gh-canvas">
             {{#is "post"}}
-            {{!-- Check what works --}}
                 <span class="gh-article-meta">
                     {{#primary_author}}
-                        {{{t "By {link}" link="<a href=\"{url}\">{name}</a>" url=url name=name }}}
+                        {{{t "By <a href=\"{url}\">{name}</a>" url=url name=name }}}
                     {{/primary_author}}
                     {{#if primary_tag}}
-                        {{t "in <a class=\"gh-article-tag\" href=\"{primarytagurl}\">{primarytagname}</a>" primarytagurl=primary_tag.url primarytagname=primary_tag.name}}
+                        {{{t "in <a class=\"gh-article-tag\" href=\"{primarytagurl}\">{primarytagname}</a>" primarytagurl=primary_tag.url primarytagname=primary_tag.name}}}
                     {{/if}}
                     —
                     <time datetime="{{date format="YYYY-MM-DD"}}">{{date}}</time>
