@@ -8,10 +8,10 @@
             {{#is "post"}}
                 <span class="gh-article-meta">
                     {{#primary_author}}
-                        {{{t "By <a href=\"{url}\">{name}</a>" url=url name=name }}}
+                        {{t "By" }} <a href="{{url}}">{{name}}</a>
                     {{/primary_author}}
                     {{#if primary_tag}}
-                        {{{t "in <a class=\"gh-article-tag\" href=\"{primarytagurl}\">{primarytagname}</a>" primarytagurl=primary_tag.url primarytagname=primary_tag.name}}}
+                        {{t "in" }} <a class="gh-article-tag" href="{{primary_tag.url}}">{{primary_tag.name}}</a>
                     {{/if}}
                     —
                     <time datetime="{{date format="YYYY-MM-DD"}}">{{date}}</time>
