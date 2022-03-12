@@ -21,8 +21,8 @@
     "Featured": "À la Une",
     "% issues": "% articles",
     "% issue": "% article",
-    "By <a href=\"{url}\">{name}</a>": "Par <a href=\"{url}\">{name}</a>",
-    "in <a class=\"gh-article-tag\" href=\"{primarytagurl}\">{primarytagname}</a>": "dans <a class=\"gh-article-tag\" href=\"{primarytagurl}\">{primarytagname}</a>",
+    "By": "Par",
+    "in": "dans",
     "Previous issue": "Article précédent",
     "Next issue": "Article suivant"
 }
