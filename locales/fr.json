@@ -22,5 +22,7 @@
     "% issues": "% articles",
     "% issue": "% article",
     "By {namelink}": "Par {namelink}",
-    "in {primarytaglink}": "dans {primarytaglink}"
+    "in {primarytaglink}": "dans {primarytaglink}",
+    "Previous issue": "Article précédent",
+    "Next issue": "Article suivant"
 }
