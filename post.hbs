@@ -9,7 +9,7 @@
             {{!-- Check what works --}}
                 <span class="gh-article-meta">
                     {{#primary_author}}
-                        {{{t "By <a href=\"{url}\">{name}</a>" url=url name=name }}}
+                        {{{t "By {link}" link="<a href=\"{url}\">{name}</a>" url=url name=name }}}
                     {{/primary_author}}
                     {{#if primary_tag}}
                         {{t "in <a class=\"gh-article-tag\" href=\"{primarytagurl}\">{primarytagname}</a>" primarytagurl=primary_tag.url primarytagname=primary_tag.name}}
